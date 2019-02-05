@@ -1,0 +1,10 @@
+https://stackoverflow.com/questions/27753917/how-do-you-successfully-change-execution-policy-and-enable-execution-of-powershe
+
+# try to change policy:
+Set-ExecutionPolicy Unrestricted
+
+# if wont work:
+Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force
+
+# to see which scope has which setting
+Get-ExecutionPolicy -List
