@@ -37,10 +37,15 @@ remove packages (from admin powershell):
 - `Remove-AppxPackage -AllUsers -Package 'Microsoft.XXXXXXXXXXXXXXXXXXXXXXXXXX'`
 - `Remove-AppxPackage -Package 'Microsoft.BingWeather_XXXXXXXXXXXXXXXXXXXXXXXX'`
 
-other bloatware to remove:	
+bloatware to remove:	
 - remove Cortana
 - remove OneDrive
 - remove Xbox
 - remove WindowsBackup
 - remove Skype
 - remove Game Bar: `Get-AppxPackage Microsoft.XboxGamingOverlay | Remove-AppxPackage`
+
+---
+
+other scripts in that field:
+- https://gist.github.com/mrik23/e8160517b19a3a9dad9c1b5e8ba0fb78
