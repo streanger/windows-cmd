@@ -21,7 +21,7 @@ disable telemetry:
 - https://www.geekbits.io/how-to-disable-telemetry-on-windows-10/
 - https://wethegeek.com/how-to-disable-telemetry-and-data-collection-in-windows-10/
 - from GPO -> `Computer Configuration` > `Administrative Templates` > `Windows Components` > `Data collection and Preview Builds` > `Allow Telemetry` (set to disabled)
-- from services.msc -> Connected User Experiences and Telemetry
+- from services.msc -> `Connected User Experiences and Telemetry`
 - from task scheduler -> `Task Scheduler Library` > `Microsoft` > `Windows` > `Customer Experience Improvement Program` > `Consolidator` (disable it)
 
 disable bing search and others:
